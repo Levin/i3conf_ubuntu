@@ -1,0 +1,53 @@
+{
+    "layout": "splitv",
+    "type": "con",
+    "nodes": [
+        {
+            "border": "none",
+            "name": "base",
+            "type": "con",
+            "swallows": [
+                {
+                    "class": "^kitty$",
+                    "instance": "^irssi$"
+                }
+            ]
+        },
+        {
+            "layout": "stacked",
+            "type": "con",
+            "nodes": [
+                {
+                    "name": "notmuch",
+                    "type": "con",
+                    "swallows": [
+                        {
+                            "class": "^nvim .$",
+                            "instance": "^notmuch$"
+                        }
+                    ]
+                },
+                {
+                    "name": "kitty",
+                    "type": "con"
+                }
+            ]
+        }
+    ]
+}
+
+{
+    "layout": "stacked",
+    "type": "con",
+    "nodes": [
+        {
+            "name": "firefox",
+            "type": "con",
+            "swallows": [
+                {
+                    "class": "^firefox$"
+                }
+            ]
+        }
+    ]
+}
