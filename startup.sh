@@ -1,5 +1,5 @@
 #!/bin/bash
 
-kitty &
-kitty &
 firefox &
+kitty &
+kitty &
