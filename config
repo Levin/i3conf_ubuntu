@@ -193,6 +193,7 @@ bar {
 
 # start picom for blur 
 exec --no-startup-id picom --config /home/ubuntu/.config/picom/picom.conf
-exec feh --random --bg-fill ~/Downloads/backgrounds/*
+exec feh --bg-fill ~/Downloads/backgrounds/002.jpg
 exec ~/.config/i3/startup.sh
+exec ~/blueman-manager
 
